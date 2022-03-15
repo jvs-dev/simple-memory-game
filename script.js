@@ -634,3 +634,12 @@ card6.onclick = function() {
         }, 1100);
     }
 }
+
+window.addEventListener('load', function () {
+    card1.classList.add('back')
+    card2.classList.add('back')
+    card3.classList.add('back')
+    card4.classList.add('back')
+    card5.classList.add('back')
+    card6.classList.add('back')  
+})
