@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/components/header.css">
+    <link rel="stylesheet" href="CSS/components/text.css">
+    <link rel="stylesheet" href="CSS/components/hpcard.css">
+    <link rel="stylesheet" href="CSS/components/sections.css">
+    <link rel="stylesheet" href="CSS/components/cardgame.css">
+    <link rel="stylesheet" href="CSS/components/winner.css">
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <div class="winnerposition dpnone">
+        <div class="winner">
+            <p class="plrwnnnm"></p>
+            <p class="Winnertxt">Winner!!!</p>
+            <ion-icon class="trofeu" name="trophy-sharp"></ion-icon>
+            <a class="restart" href="">Restart</a>
+        </div>
+    </div>
+    <header class="header1">
+        <p class="playernm">Player 1</p>
+        <div class="playerstatus">
+            <ion-icon id="vez1" class="plrset" name="caret-down-outline"></ion-icon>
+            <div class="health">
+                <div id="hp1pl1" class="hp comhp"></div>
+                <div id="hp2pl1" class="hp comhp"></div>
+                <div id="hp3pl1" class="hp comhp"></div>
+            </div>
+        </div>
+        <p class="VS">VS</p>
+        <div class="playerstatus">
+            <ion-icon id="vez2" class="plrset dpnone" name="caret-down-outline"></ion-icon>
+            <div class="health">
+                <div id="hp3pl2" class="hp comhp"></div>
+                <div id="hp2pl2" class="hp comhp"></div>
+                <div id="hp1pl2" class="hp comhp"></div>
+            </div>
+        </div>
+        <p class="playernm">Player 2</p>
+    </header>
+    <section class="section1">
+        <div id="card1" class="cardgame css back"></div>
+        <div id="card2" class="cardgame html back"></div>
+        <div id="card3" class="cardgame css back"></div>
+        <div id="card4" class="cardgame html back"></div>
+        <div id="card5" class="cardgame js back"></div>
+        <div id="card6" class="cardgame js back"></div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

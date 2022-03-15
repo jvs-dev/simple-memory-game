@@ -1,0 +1,65 @@
+.winnerposition
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.winner
+{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 3px white;
+    border-radius: 20px;
+    background-color: lightcoral;
+
+}
+.trofeu
+{
+    font-size: 200px;
+    color: gold;
+}
+.restart
+{
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 610;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    border: 2px solid black;
+    transition: 0.2s cubic-bezier(1, -0.78, 0.39, 2.56);;
+}
+.restart:hover
+{
+    transform: scale(1.10);
+}
+.Winnertxt
+{
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    color: rgb(0, 255, 34);
+    margin: 0px;
+}
+.plrwnnnm
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    initial-letter: 2px;
+    margin: 0px
+}
