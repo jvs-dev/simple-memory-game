@@ -14,6 +14,7 @@ let hp2pl2 = document.getElementById('hp2pl2')
 let hp3pl2 = document.getElementById('hp3pl2')
 let winnerposition = document.querySelector('.winnerposition')
 let plrwnnnm = document.querySelector('.plrwnnnm')
+let loadwindow = document.querySelector('.loadwindow')
 
 localStorage.setItem('player1', 3)
 localStorage.setItem('player2', 3)
@@ -641,5 +642,9 @@ window.addEventListener('load', function () {
     card3.classList.add('back')
     card4.classList.add('back')
     card5.classList.add('back')
-    card6.classList.add('back')  
+    card6.classList.add('back')
+    setTimeout(() => {
+        loadwindow.classList.remove('dpflex')
+        loadwindow.classList.add('dpnone')
+    }, 2000); 
 })
